@@ -8,6 +8,7 @@ let curve2
 
 const drawTree = (startX, startY, len, angle, branchWidth, bodyColor, leavesColor) => {
 	btn.style.backgroundColor = bodyColor
+	btn.style.color = leavesColor
 
 	ctx.beginPath()
 	ctx.save()
