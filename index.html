@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fractals Tree</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		canvas {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+
+		button {
+			cursor: pointer;
+			outline: none;
+			border: none;
+			position: absolute;
+			left: 50%;
+			bottom: 5%;
+			z-index: 10;
+			transform: translate(-50%, 0);
+			padding: 20px 30px;
+			color: wheat;
+			font-size: 20px;
+			width: 300px;
+			overflow: hidden;
+			border-radius: 25px;
+		}
+	</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<button id="btn">Generate random tree</button>
+<script type="module" src="index.js"></script>
+</body>
+</html>
