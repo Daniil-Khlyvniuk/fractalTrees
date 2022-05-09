@@ -17,8 +17,11 @@ const drawTree = (startX, startY, len, angle, branchWidth, bodyColor, leavesColo
 	ctx.lineWidth = branchWidth
 	ctx.translate(startX, startY)
 	ctx.rotate(angle * Math.PI / 180)
-	ctx.moveTo(0, 0)
+	ctx.shadowColor = '#000';
+	ctx.shadowOffsetY = -7;
+	ctx.shadowBlur = 5;
 	ctx.lineCap = "round"
+	ctx.moveTo(0, 0)
 
 	if (angle < 10) {
 		ctx.bezierCurveTo(10, -len / 2, -10, -len / 2, 0, -len)
