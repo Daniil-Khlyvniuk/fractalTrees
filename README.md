@@ -1,2 +1,2 @@
-#### [deploy](https://daniil-khlyvniuk.github.io/fractalTrees/)
+#### [deployment](https://daniil-khlyvniuk.github.io/fractalTrees/)
 ![](img.png)
